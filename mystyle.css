@@ -10,18 +10,45 @@
     min-height: 100vh;
 }
 
+.page-layout {
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer"
+}
+
+.header {
+    grid-area: header;
+    background-color: deeppink;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
 .footer-area {
-    grid-area: footer-area;
+    grid-area: footer;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-.h1 {
+h1 {
     text-align: center;
     margin: 30px 0 20px;
     color: burlywood;
+}
+
+h2, h3{
+    text-align: center;
+    margin: 30px 0 20px;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .gallery {
