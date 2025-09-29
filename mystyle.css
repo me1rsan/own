@@ -12,7 +12,8 @@
 
 .footer-area {
     grid-area: footer-area;
-    background-color: #1b91df;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -73,7 +74,8 @@
 
 .grind-footer{
     grid-area: footer;
-    background-color: #1b91df;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 10px;
     text-align: center;
 
